@@ -29,6 +29,34 @@
             pc1.AbrirApp(Silksong);
             Console.WriteLine(pc1.MostrarInfo());
 
+
+            #region interfaz - mas o menos 
+
+            //bienvendo
+            //    eleji una pc
+            //    armar pc
+
+            //menu:
+            //ver info
+            //    instalar app
+            //    desintalar app
+            //    ver almacenamiento
+            //    abrir app
+            //        si abre steam
+            //            ya puede abrir los juegos o cuando abre un juego verificar que tenga steam
+            //            cargar saldo
+            //            ver biblioteca
+            //            ver tienda ?? -talvez poner todo lo q sea instalar y desintalar un tipo Juego aca
+            //        si abre microsoft edge
+            //            abrir pestaña -cada pestaña abierta aumentara la ram que consume la clase app
+            //            cerrar pestaña
+            //        si abre netflix
+            //            contratar un de los distintos niveles de membresias
+            //    cerrar app
+
+            #endregion
+
+
         }
     }
 }
