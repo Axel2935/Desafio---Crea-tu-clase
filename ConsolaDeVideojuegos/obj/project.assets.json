@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj",
+      "projectUniqueName": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj",
       "projectName": "ConsolaDeVideojuegos",
-      "projectPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj",
+      "projectPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj",
       "packagesPath": "C:\\Users\\axelg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\obj\\",
+      "outputPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

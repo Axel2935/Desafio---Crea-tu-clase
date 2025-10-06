@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio-CrearTuClase", "Desafio-CrearTuClase.csproj", "{6A063962-D715-40EB-B468-556DD4E9BCBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A063962-D715-40EB-B468-556DD4E9BCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A063962-D715-40EB-B468-556DD4E9BCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A063962-D715-40EB-B468-556DD4E9BCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A063962-D715-40EB-B468-556DD4E9BCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E288D2FE-AD95-4AEC-AB27-4ACD45F4B924}
+	EndGlobalSection
+EndGlobal

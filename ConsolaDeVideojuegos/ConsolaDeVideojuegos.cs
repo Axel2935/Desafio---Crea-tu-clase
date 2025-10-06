@@ -18,11 +18,6 @@ namespace ConsolaDeVideojuegos
         private List<double> tamañoJuegos;
         #endregion
 
-
-        #region propiedades
-        #endregion //poner algo
-
-
         #region constructor
         public ConsolaDeVideojuegos(string marca, string modelo, double almacenamientoTotal)
         {

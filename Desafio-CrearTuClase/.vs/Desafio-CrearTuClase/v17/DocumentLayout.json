@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A063962-D715-40EB-B468-556DD4E9BCBC}|Desafio-CrearTuClase.csproj|c:\\users\\axelg\\onedrive\\escritorio\\desafio---crea-tu-clase\\desafio-creartuclase\\pc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A063962-D715-40EB-B468-556DD4E9BCBC}|Desafio-CrearTuClase.csproj|solutionrelative:pc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A063962-D715-40EB-B468-556DD4E9BCBC}|Desafio-CrearTuClase.csproj|c:\\users\\axelg\\onedrive\\escritorio\\desafio---crea-tu-clase\\desafio-creartuclase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A063962-D715-40EB-B468-556DD4E9BCBC}|Desafio-CrearTuClase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A063962-D715-40EB-B468-556DD4E9BCBC}|Desafio-CrearTuClase.csproj|c:\\users\\axelg\\onedrive\\escritorio\\desafio---crea-tu-clase\\desafio-creartuclase\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A063962-D715-40EB-B468-556DD4E9BCBC}|Desafio-CrearTuClase.csproj|solutionrelative:app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PC.cs",
+              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\PC.cs",
+              "RelativeDocumentMoniker": "PC.cs",
+              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\PC.cs",
+              "RelativeToolTip": "PC.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAcwAUBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:43:51.747Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\App.cs",
+              "RelativeDocumentMoniker": "App.cs",
+              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\App.cs",
+              "RelativeToolTip": "App.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAlwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T19:04:06.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T18:42:53.743Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

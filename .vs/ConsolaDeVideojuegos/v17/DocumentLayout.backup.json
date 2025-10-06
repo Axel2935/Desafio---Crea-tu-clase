@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\",
+  "WorkspaceRootPath": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96A2B64F-7E99-4C16-B11F-EAD93BC3C618}|ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj|c:\\users\\axelg\\onedrive\\escritorio\\consoladevideojuegos\\consoladevideojuegos\\consoladevideojuegos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96A2B64F-7E99-4C16-B11F-EAD93BC3C618}|ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj|c:\\users\\axelg\\onedrive\\escritorio\\desafio---crea-tu-clase\\consoladevideojuegos\\consoladevideojuegos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96A2B64F-7E99-4C16-B11F-EAD93BC3C618}|ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj|solutionrelative:consoladevideojuegos\\consoladevideojuegos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96A2B64F-7E99-4C16-B11F-EAD93BC3C618}|ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj|c:\\users\\axelg\\onedrive\\escritorio\\consoladevideojuegos\\consoladevideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96A2B64F-7E99-4C16-B11F-EAD93BC3C618}|ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj|c:\\users\\axelg\\onedrive\\escritorio\\desafio---crea-tu-clase\\consoladevideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96A2B64F-7E99-4C16-B11F-EAD93BC3C618}|ConsolaDeVideojuegos\\ConsolaDeVideojuegos.csproj|solutionrelative:consoladevideojuegos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ConsolaDeVideojuegos.cs",
-              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.cs",
+              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.cs",
               "RelativeDocumentMoniker": "ConsolaDeVideojuegos\\ConsolaDeVideojuegos.cs",
-              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.cs",
+              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos.cs",
               "RelativeToolTip": "ConsolaDeVideojuegos\\ConsolaDeVideojuegos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\Program.cs",
               "RelativeDocumentMoniker": "ConsolaDeVideojuegos\\Program.cs",
-              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\ConsolaDeVideojuegos\\ConsolaDeVideojuegos\\Program.cs",
+              "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\ConsolaDeVideojuegos\\Program.cs",
               "RelativeToolTip": "ConsolaDeVideojuegos\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

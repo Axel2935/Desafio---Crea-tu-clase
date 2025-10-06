@@ -1,0 +1,15 @@
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\bin\Debug\net9.0\Desafio-CrearTuClase.exe
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\bin\Debug\net9.0\Desafio-CrearTuClase.deps.json
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\bin\Debug\net9.0\Desafio-CrearTuClase.runtimeconfig.json
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\bin\Debug\net9.0\Desafio-CrearTuClase.dll
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\bin\Debug\net9.0\Desafio-CrearTuClase.pdb
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.AssemblyInfoInputs.cache
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.AssemblyInfo.cs
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.csproj.CoreCompileInputs.cache
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.sourcelink.json
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.dll
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\refint\Desafio-CrearTuClase.dll
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.pdb
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\Desafio-CrearTuClase.genruntimeconfig.cache
+C:\Users\axelg\OneDrive\Escritorio\Desafio---Crea-tu-clase\Desafio-CrearTuClase\obj\Debug\net9.0\ref\Desafio-CrearTuClase.dll
