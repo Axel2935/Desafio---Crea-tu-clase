@@ -35,8 +35,7 @@
               "ViewState": "AgIAAHIAAAAAAAAAAAAQwI4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T18:43:51.747Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -48,8 +47,7 @@
               "RelativeToolTip": "App.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAmwEoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T19:04:06.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T19:04:06.299Z"
             },
             {
               "$type": "Document",
@@ -59,7 +57,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\axelg\\OneDrive\\Escritorio\\Desafio---Crea-tu-clase\\Desafio-CrearTuClase\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAkwIsAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAkwIAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T18:42:53.743Z",
               "EditorCaption": ""

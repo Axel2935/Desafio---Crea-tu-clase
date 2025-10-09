@@ -125,20 +125,8 @@ namespace Desafio_CrearTuClase
                             double tamanio = double.Parse(Console.ReadLine());
                             Console.Write("Ram requerida de la app (GB): ");
                             double ramRequerida = double.Parse(Console.ReadLine());
-                            Console.WriteLine("Tipo de app: ");
-                            foreach (string tipo in Enum.GetNames(typeof(EnumApp)))
-                            {
-                                Console.WriteLine(tipo);
-                            }
-                            EnumApp tipoApp;
-                            while (!Enum.TryParse<EnumApp>(Console.ReadLine(), out tipoApp))
-                            {
-                                Console.WriteLine("Tipo invalido, reingrese: ");
-                            }
-                            Console.Write("Precio de la app (0 si es gratis): ");
-                            double precio = double.Parse(Console.ReadLine());
-                            App app = new App(nombre, tamanio, ramRequerida, tipoApp, precio);
-                            miPC.InstalarApp(app);
+                            //Console.WriteLine("Tipo de app: ");
+                            //miPC.InstalarApp(app);
                             break;
                     }
                 }
