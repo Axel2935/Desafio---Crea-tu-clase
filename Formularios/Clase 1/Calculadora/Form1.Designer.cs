@@ -40,46 +40,51 @@
             // 
             // btnSuma
             // 
+            btnSuma.BackColor = SystemColors.ControlDark;
             btnSuma.Location = new Point(97, 250);
             btnSuma.Name = "btnSuma";
             btnSuma.Size = new Size(75, 23);
             btnSuma.TabIndex = 0;
             btnSuma.Text = "Sumar";
-            btnSuma.UseVisualStyleBackColor = true;
+            btnSuma.UseVisualStyleBackColor = false;
             btnSuma.Click += button1_Click;
             // 
             // btnRestar
             // 
+            btnRestar.BackColor = SystemColors.ControlDark;
             btnRestar.Location = new Point(268, 250);
             btnRestar.Name = "btnRestar";
             btnRestar.Size = new Size(75, 23);
             btnRestar.TabIndex = 1;
             btnRestar.Text = "Restar";
-            btnRestar.UseVisualStyleBackColor = true;
+            btnRestar.UseVisualStyleBackColor = false;
             btnRestar.Click += btnRestar_Click;
             // 
             // btnMultiplicar
             // 
+            btnMultiplicar.BackColor = SystemColors.ControlDark;
             btnMultiplicar.Location = new Point(443, 250);
             btnMultiplicar.Name = "btnMultiplicar";
             btnMultiplicar.Size = new Size(75, 23);
             btnMultiplicar.TabIndex = 2;
             btnMultiplicar.Text = "Multiplicar";
-            btnMultiplicar.UseVisualStyleBackColor = true;
+            btnMultiplicar.UseVisualStyleBackColor = false;
             btnMultiplicar.Click += btnMultiplicar_Click;
             // 
             // btnDividir
             // 
+            btnDividir.BackColor = SystemColors.ControlDark;
             btnDividir.Location = new Point(572, 250);
             btnDividir.Name = "btnDividir";
             btnDividir.Size = new Size(75, 23);
             btnDividir.TabIndex = 3;
             btnDividir.Text = "Dividir";
-            btnDividir.UseVisualStyleBackColor = true;
+            btnDividir.UseVisualStyleBackColor = false;
             btnDividir.Click += btnDividir_Click;
             // 
             // txt1
             // 
+            txt1.BackColor = SystemColors.ControlDark;
             txt1.Location = new Point(205, 101);
             txt1.Name = "txt1";
             txt1.Size = new Size(100, 23);
@@ -88,6 +93,7 @@
             // 
             // txt2
             // 
+            txt2.BackColor = SystemColors.ControlDark;
             txt2.Location = new Point(443, 101);
             txt2.Name = "txt2";
             txt2.Size = new Size(100, 23);
@@ -115,6 +121,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.HotTrack;
             ClientSize = new Size(800, 450);
             Controls.Add(lblResultado);
             Controls.Add(label1);
@@ -124,8 +131,10 @@
             Controls.Add(btnMultiplicar);
             Controls.Add(btnRestar);
             Controls.Add(btnSuma);
+            ForeColor = SystemColors.ControlLightLight;
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculadora";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
