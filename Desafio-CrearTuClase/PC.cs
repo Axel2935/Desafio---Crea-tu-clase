@@ -147,21 +147,19 @@ namespace Desafio_CrearTuClase
             if (app == null)
             {
                 Console.WriteLine("app no existe");
+                return false;
             }
-            else
+            foreach (App appADesintalar in this.aplicacionesInstaladas)
             {
-                foreach (App appADesintalar in this.aplicacionesInstaladas)
+                if (appADesintalar.Nombre == app.Nombre)
                 {
-                    if (appADesintalar.Nombre == app.Nombre)
-                    {
-                        this.aplicacionesInstaladas.Remove(app);
-                        this.almacenamientoUsado -= app.Tamanio;
-                        Console.WriteLine($"Se desintalo {app.Nombre}");
-                        return true;
-                    }
+                    this.aplicacionesInstaladas.Remove(app);
+                    this.almacenamientoUsado -= app.Tamanio;
+                    Console.WriteLine($"Se desintalo {app.Nombre}");
+                    return true;
                 }
-                Console.WriteLine("No tenes la aplicacion en tu PC");
             }
+            Console.WriteLine("No tenes la aplicacion en tu PC");
             return false;
         }
 
@@ -215,7 +213,12 @@ namespace Desafio_CrearTuClase
                             tamanioNavegador += app.Tamanio;
                             break;
                         }
-                    default: //agregar el otros
+                    case EnumApp.Otro:
+                        {
+                            tamanioOtros += app.Tamanio;
+                            break;
+                        }
+                    default:
                         {
                             break;
                         }
@@ -256,10 +259,42 @@ namespace Desafio_CrearTuClase
             return false;
         }
 
-        //public bool CerrarApp(App app)
-        //{
-            
-        //}
+        public bool CerrarApp(App app)
+        {
+            if (app == null)
+            {
+                return false;
+            }
+            foreach (App aplicacion in this.aplicacionesActivas)
+            {
+                if (aplicacion.Nombre == app.Nombre)
+                {
+                    this.aplicacionesActivas.Remove(app);
+                    this.ramUsada -= app.RamRequerida;
+                    app.AplicacionActiva = false;
+                    Console.WriteLine($"Se cerro {app.Nombre} correctamente");
+                    return true;
+                }
+            }
+            Console.WriteLine("La aplicacion no esta abierta");
+            return false;
+        }
+
+        #endregion
+
+        #region cosas
+        
+        public bool VerificarAppNull(App app)
+        {
+            if (app == null)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         #endregion
 
