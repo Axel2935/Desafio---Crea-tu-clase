@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Desafio-CrearTuClase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2d86a385173baa6edd66a85e35b4ef9a236b221")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6c0430fdc584de9bf58ed2cdd8288aaefb194d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Desafio-CrearTuClase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Desafio-CrearTuClase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

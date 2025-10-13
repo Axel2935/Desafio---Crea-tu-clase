@@ -34,7 +34,7 @@
             btnDividir = new Button();
             txt1 = new TextBox();
             txt2 = new TextBox();
-            label1 = new Label();
+            lblSimbolo = new Label();
             lblResultado = new Label();
             SuspendLayout();
             // 
@@ -99,14 +99,14 @@
             txt2.Size = new Size(100, 23);
             txt2.TabIndex = 5;
             // 
-            // label1
+            // lblSimbolo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(356, 109);
-            label1.Name = "label1";
-            label1.Size = new Size(15, 15);
-            label1.TabIndex = 6;
-            label1.Text = "+";
+            lblSimbolo.AutoSize = true;
+            lblSimbolo.Location = new Point(356, 109);
+            lblSimbolo.Name = "lblSimbolo";
+            lblSimbolo.Size = new Size(15, 15);
+            lblSimbolo.TabIndex = 6;
+            lblSimbolo.Text = "+";
             // 
             // lblResultado
             // 
@@ -124,7 +124,7 @@
             BackColor = SystemColors.HotTrack;
             ClientSize = new Size(800, 450);
             Controls.Add(lblResultado);
-            Controls.Add(label1);
+            Controls.Add(lblSimbolo);
             Controls.Add(txt2);
             Controls.Add(txt1);
             Controls.Add(btnDividir);
@@ -147,7 +147,7 @@
         private Button btnDividir;
         private TextBox txt1;
         private TextBox txt2;
-        private Label label1;
+        private Label lblSimbolo;
         private Label lblResultado;
     }
 }

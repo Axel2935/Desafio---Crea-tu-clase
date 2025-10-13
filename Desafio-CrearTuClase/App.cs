@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -40,6 +41,7 @@ namespace Desafio_CrearTuClase
         public EnumApp Tipo
         {
             get { return this.tipo; }
+            set { this.tipo = value; }
         }
 
         public double Precio
@@ -61,11 +63,15 @@ namespace Desafio_CrearTuClase
             this.aplicacionActiva = false;
             this.precio = 0;
         }
-        public App(string nombre, double tamanio, double ramRequerida, EnumApp tipo):this()
+        public App(string nombre, double tamanio, double ramRequerida) : this()
         {
             this.nombre = nombre;
             this.tamanio = tamanio;
             this.ramRequerida = ramRequerida;
+        }
+
+        public App(string nombre, double tamanio, double ramRequerida, EnumApp tipo):this(nombre, tamanio, ramRequerida)
+        {
             this.tipo = tipo;
         }
 

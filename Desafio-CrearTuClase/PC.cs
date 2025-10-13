@@ -10,10 +10,13 @@ namespace Desafio_CrearTuClase
     {
         #region Atrinutos
 
+        //atributos privados
+        //uno o varios atributos estaticos
         private string sistemaOperativo;
         private string procesador;
         private double ramUsada;
         private double almacenamientoUsado;
+        //añadir un atributo de lista: incluye un nuevo atributo que sea una lista (o arreglo) para almacenar una collecion de elementos. crear metodos que las recorrarn y muestren sus valores contenido
         private List<App> aplicacionesInstaladas;
         private List<App> aplicacionesActivas;
 
@@ -21,7 +24,7 @@ namespace Desafio_CrearTuClase
 
 
         #region Propiedades
-
+        //propiedades para todos los atributos,segun eñ atributo definir si la propiedad es de lectura, escritura o lec y esc
         public string SistemaOperativo
         {
             get { return this.sistemaOperativo; }
@@ -51,7 +54,7 @@ namespace Desafio_CrearTuClase
                 return Ram - RamUsada;
             }
         }
-
+        //por lo menos una propiedad autoreferencial
         public double AlmacenamientoTotal
         {
             get;
@@ -62,7 +65,7 @@ namespace Desafio_CrearTuClase
         {
             get { return this.almacenamientoUsado; }
         }
-
+        //por lo menos una propiedad autocalculada
         public double AlmacenamientoDisponible
         {
             get
@@ -75,7 +78,9 @@ namespace Desafio_CrearTuClase
 
 
         #region Constructores
-
+        //metodo constructor
+        //un constructor estatico que inicialice los atributos correspondientes
+        //realizar por lo menos 5 sobrecargas de constructores (utilizar la tecnica de cascada para reutilizar el codigo)
         public PC()
         {
             this.sistemaOperativo = "Windows";
@@ -99,7 +104,7 @@ namespace Desafio_CrearTuClase
 
 
         #region Metodos
-
+        //4 metodos propios (usar StringBuiler)
         public string MostrarInfo()
         {
             StringBuilder mensaje = new StringBuilder();
@@ -138,6 +143,7 @@ namespace Desafio_CrearTuClase
             this.aplicacionesInstaladas.Add(app);
             this.almacenamientoUsado += app.Tamanio;
             //-= app.Precio
+            //utilizar los metodos get para mostrar por consola los datos de los objetos
             Console.WriteLine($"Se logro instalar {app.Nombre} ({app.Tamanio} GB) correctamente");
             return true;
         }
@@ -156,6 +162,22 @@ namespace Desafio_CrearTuClase
                     this.aplicacionesInstaladas.Remove(app);
                     this.almacenamientoUsado -= app.Tamanio;
                     Console.WriteLine($"Se desintalo {app.Nombre}");
+                    return true;
+                }
+            }
+            Console.WriteLine("No tenes la aplicacion en tu PC");
+            return false;
+        }
+        //realizar sobrecargas de metodos por lo menos debe haber un metodo sobrecargado
+        public bool DesintalarApp(string nombreDesintalar)
+        {
+            foreach (App appADesintalar in this.aplicacionesInstaladas)
+            {
+                if (appADesintalar.Nombre == nombreDesintalar)
+                {
+                    this.aplicacionesInstaladas.Remove(appADesintalar);
+                    this.almacenamientoUsado -= appADesintalar.Tamanio;
+                    Console.WriteLine($"Se desintalo {appADesintalar.Nombre}");
                     return true;
                 }
             }
@@ -213,13 +235,9 @@ namespace Desafio_CrearTuClase
                             tamanioNavegador += app.Tamanio;
                             break;
                         }
-                    case EnumApp.Otro:
-                        {
-                            tamanioOtros += app.Tamanio;
-                            break;
-                        }
                     default:
                         {
+                            tamanioOtros += app.Tamanio;
                             break;
                         }
                 }
@@ -229,6 +247,7 @@ namespace Desafio_CrearTuClase
             mensaje.AppendLine($"Espacio usado en Multimedia: {tamanioMultimedia} GB");
             mensaje.AppendLine($"Espacio usado en Personalizacion: {tamanioPersonalizacion} GB");
             mensaje.AppendLine($"Espacio usado en Navagedaro: {tamanioNavegador} GB");
+            mensaje.AppendLine($"Espacio usado en Otros: {tamanioOtros} GB");
 
             return mensaje.ToString();
         }
@@ -258,6 +277,8 @@ namespace Desafio_CrearTuClase
             Console.WriteLine("La aplicacion no esta instalada");
             return false;
         }
+
+        //public bool
 
         public bool CerrarApp(App app)
         {
